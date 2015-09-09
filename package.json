@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "r.js -o build.config.js && rsync -a --delete src public/js && rsync -a --delete libs public/js && cp main.config.js public/"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "amdclean": "^2.7.0"
+  }
+}

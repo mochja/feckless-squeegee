@@ -1,0 +1,7 @@
+{
+  "name": "foo",
+  "private": true,
+  "dependencies": {
+    "handlebars": "~4.0.2"
+  }
+}
